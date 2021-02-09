@@ -1,0 +1,116 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.home .jumbotron{
+  background: url(/images/background.webp) center center;
+  background-size: cover;
+  min-height: 600px;
+  width: 100%;
+}
+
+.jumbotron{
+  padding: 50px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+}
+
+.jumbotron .container {
+  padding: 0 200px 0 280px;
+  width: 100%;
+}
+
+.main h2 {
+  color: #000;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: left;
+}
+
+.right {
+  float: right;
+}
+
+.footer{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  height: 50px;
+  text-align: right;
+  width: 100%;
+}
+
+.container {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: right;
+  box-sizing: border-box;
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 10px 0 20px;
+  width: 100%;
+}
+
+.social_media {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 0;
+  // margin: 65px 0 20px;
+  width: 100%;
+}
+
+.social_media li {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  box-sizing: border-box;
+  padding: 0;
+  display: inline-block;
+  height: 24px;
+  margin: 0 0 0 10px;
+  text-align: left;
+  text-indent: -9999px;
+  width: 24px;
+}
+
+.social_media li a {
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+
+.github {
+  background-image: url(/images/github.svg);
+  background-position: center center;
+}
+
+.twitter {
+  background-image: url(/images/twitter.svg);
+  background-position: center center;
+}
+
+.linkedin {
+  background-image: url(/images/linkedin.svg);
+  background-position: center center;
+}
